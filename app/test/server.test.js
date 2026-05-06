@@ -1373,7 +1373,7 @@ test('GET / includes Tic Tac Toe game title', async () => {
 		const body = await response.text();
 
 		assert.equal(response.status, 200);
-		assert.match(body, /Tic Tac Toe/);
+		assert.match(body, /Hari's Tic Tac Toe/);
 	} finally {
 		await new Promise((resolve) => server.close(resolve));
 	}
