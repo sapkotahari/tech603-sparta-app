@@ -8,8 +8,7 @@ const DEFAULT_SEEDED_SCOREBOARD = [
 	{ initials: 'GGG', score: 700 },
 	{ initials: 'HHH', score: 800 },
 	{ initials: 'III', score: 900 },
-	{ initials: 'JJJ', score: 1000 },
-	{initials: 'HARI', score: 3000}
+	{initials: 'HARI', score: 1000}
 ];
 
 function getSeededScoreboard() {
